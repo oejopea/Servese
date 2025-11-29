@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contener{
+    text-align: center;
+}
+.alldiv{
+    float: left;
+    width: 15%;
+}
+.head{
+    background-color: blue;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+
+}
+.allserveses{
+    background-color: rgb(230, 31, 31);
+        margin-bottom: 20px;
+    padding: 5px 0px;
+
+
+
+}
+.serves{
+    background-color: yellow;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+
+}
+.courses{
+    background-color: violet;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+
+}
+.footer{
+    background-color: tomato;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+
+}
+.clean{
+    clear: both;
+}

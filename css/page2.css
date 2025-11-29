@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+
+}
+
+.alldiv {
+    display: flex;
+    width: 100%;
+}
+
+.products {
+    background-color: yellow;
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    /* padding: 500px 0px; */
+    justify-content: space-between; /*rowes*/
+    text-align: center;
+    align-items: center;  /* columes */
+    /* height: 500px; */
+
+}
+
+.product {
+    background-color: violet;
+    width: calc((100% - 50px) / 3);
+    padding: 20px;
+    border: 5px solid black;
+
+
+}
+
+.cont {
+    background-color: yellow;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* justify-content: space-evenly;
+          justify-content: space-around; */
+    gap: 45px;
+
+
+
+}
+
+.name {
+
+    background-color: violet;
+    width: 100%;
+
+
+
+}
