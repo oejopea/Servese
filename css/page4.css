@@ -1,0 +1,27 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellowgreen; */
+}
+html{
+    --primaryColor:blue;
+    --defoltColor:rgb(192, 104, 22);
+
+}
+.navbar{
+/* background-color: var(--primaryColor); */
+background-color: var(--primaryColor);
+/* imprtant */
+/* display: none; */
+/* visibility: hidden; */
+opacity: 000;
+}
+.about{
+background-color: var(--defoltColor);
+
+}
+.team{
+background-color: var(--primaryColor);
+
+}
