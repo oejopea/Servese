@@ -7,6 +7,8 @@
 html{
     --primaryColor:blue;
     --defoltColor:rgb(192, 104, 22);
+    --anotherColor:#FF00FF;
+    --anotherTowColor:rgb(7, 0, 0 , 0.1);
 
 }
 .navbar{
@@ -15,13 +17,14 @@ background-color: var(--primaryColor);
 /* imprtant */
 /* display: none; */
 /* visibility: hidden; */
-opacity: 000;
+/* opacity: 000; */
 }
 .about{
 background-color: var(--defoltColor);
 
 }
 .team{
-background-color: var(--primaryColor);
+background-color: var(--anotherTowColor);
+/* background-color: yellow; */
 
 }
